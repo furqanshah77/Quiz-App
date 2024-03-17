@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --border: 3px;
+  --color1: #6be89b;
+  --color2: #0076a5;
+  --from: 30deg;
+  --distance: 20%;
+}
+
+html {
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+#landingPage {
+  text-align: center;
+  background-color: #E9ECEF;
+  padding: 100px 10px 100px 10px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.heading {
+  font-size: 80px !important;
+  color: #0d6db7 !important;
+}
+
+#landingPage p {
+  color: #666;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.startText {
+  color: black !important;
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+
+}
+
+#landingPage button {
+  color: #fff;
+  border: none;
+  padding: 18px 80px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.right,
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+
+}
+
+.left img {
+  height: 100%;
+}
+
+.right {
+  height: 90%;
+  justify-content: center;
+
+}
+
+.right>p:first-child {
+  margin: 0px 0px 15px 0px;
+}
+
+.right p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.right span {
+  font-size: 25px;
+  font-weight: 700;
+
+}
+
+.right small {
+  font-size: 20px;
+  color: #666;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+nav {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.logo img:hover {
+  cursor: pointer;
+}
+
+
+.main {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.welcomeText {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  margin-bottom: 20px;
+}
+
+.welcomeText p {
+  font-size: 22px;
+  color: #666;
+}
+
+.welcomeText h1 {
+  color: #007bff;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+.card {
+  width: 400px;
+  height: 250px;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 8px;
+  padding: 20px;
+  color: rgb(33, 37, 41);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card p {
+  color: rgb(108, 117, 125);
+  font-size: 16px;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(13, 109, 183);
+  background: transparent;
+  color: rgb(13, 109, 183);
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+#showScore h3 {
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 165px;
+
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h3 {
+  margin: 0;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.innerDiv {
+  background-color: #fff;
+  padding: 30px 80px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px -7px rgba(0, 0, 0.4);
+  display: none;
+  width: 100%;
+}
+
+.innerDiv h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin: 10px 0px 40px 0px;
+}
+
+.innerDiv li {
+  font-size: 20px;
+  padding: 18px 15px;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.innerDiv li:hover {
+  background-color: #ECEFF7;
+}
+
+.innerDiv label {
+  cursor: pointer;
+}
+
+#next,
+#start,
+#submit,
+.btn {
+  padding: 18px 40px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
+  margin: auto;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #0d6db7;
+  margin-top: 40px;
+  border-radius: 6px;
+}
+
+.innerDiv button:hover {
+  background-color: #6be89b;
+}
+
+#showScore {
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 30px 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+}
+
+#showScore h3 {
+  margin-top: 30px;
+  padding: 30px 40px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #20831e;
+  border: 8px solid #20831e;
+  font-size: 80px;
+
+
+}
+
+#showScore span {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+#showScore>div {
+  border-bottom: 1px solid rgb(187, 187, 187);
+  padding: 20px 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #0d6db7;
+}
+
+.passedText {
+  color: #20831e !important;
+  font-size: 30px !important;
+}
+
+.failedText {
+  color: red !important;
+  font-size: 30px !important;
+}
+
+.scoreArea {
+  display: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+}
+
+.result {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.continue-application {
+  color: black !important;
+  background-color: #fff;
+  box-shadow: 2px 1px 2px #666;
+
+}
+
+@media screen and (max-width: 600px) {
+  .welcomeText h1 {
+    font-size: 30px;
+  }
+
+  .welcomeText p {
+    font-size: 15px;
+  }
+
+  nav {
+    padding: 10px 8px;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 999;
+    top: 0;
+    background-color: #fff;
+  }
+
+  footer p {
+    font-size: 20px;
+  }
+
+  .navBar {
+    position: fixed;
+    width: 95%;
+  }
+
+  #websiteUI {
+    margin-top: 70px;
+  }
+
+
+  #landingPage {
+    height: 100%;
+    margin-top: 80px;
+  }
+
+  .heading {
+    font-size: 50px !important;
+  }
+
+  #landingPage p {
+    font-size: 18px;
+  }
+
+  .startText {
+    font-size: 20px !important;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .right {
+    width: 100%;
+    padding: 20px 5px;
+  }
+
+  .innerDiv {
+    padding: 15px 25px;
+  }
+
+  .innerDiv h2,
+  .innerDiv li {
+    font-size: 18px;
+  }
+
+  .user span {
+    left: 85px;
+  }
+
+  #showScore {
+    width: 400px;
+  }
+}
